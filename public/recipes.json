@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Linsensuppe",
+    "description": "Wird noch für dich angepasst Sensei",
+    "cookTime": "40 Minuten",
+    "ingredients": ["200g rote Linsen", "1 Zwiebel", "2 Karotten", "1 Liter Gemüsebrühe"],
+    "steps": [
+      "Zwiebeln anbraten",
+      "Karotten dazugeben",
+      "Linsen hinzufügen",
+      "Mit Brühe aufgießen und 30 Minuten köcheln"
+    ]
+  },
+  {
+    "title": "Spaghetti Carbonara",
+    "description": "Klassisches italienisches Nudelgericht.",
+    "cookTime": "25 Minuten",
+    "ingredients": ["200g Spaghetti", "100g Speck", "2 Eier", "50g Parmesan"],
+    "steps": ["Spaghetti kochen", "Speck anbraten", "Eier und Käse verquirlen", "Alles vermengen"]
+  },
+  {
+    "title": "Pfannkuchen",
+    "description": "Einfache Pfannkuchen für süße oder herzhafte Varianten.",
+    "cookTime": "20 Minuten",
+    "ingredients": ["2 Eier", "200ml Milch", "100g Mehl", "Prise Salz"],
+    "steps": ["Zutaten verrühren", "Teig ruhen lassen", "In Pfanne ausbacken"]
+  }
+]
