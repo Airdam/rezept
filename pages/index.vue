@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Rezeptübersicht</h1>
+    <h1 class="text-3xl text-red-500">Rezeptübersicht</h1>
     <RecipeCard
       v-for="(recipe, index) in recipes"
       :key="index"
@@ -28,3 +28,9 @@ onMounted(async () => {
   recipes.value = data
 })
 </script>
+
+<style lang="sass">
+.index__title
+  font-size: 2rem
+  color: red
+</style>
