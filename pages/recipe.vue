@@ -1,5 +1,5 @@
 <template>
-  <div v-if="recipe">
+  <div class="recipe__wrapper" v-if="recipe">
     <RecipeView :recipe="recipe" />
   </div>
 </template>
@@ -19,3 +19,20 @@ onMounted(async () => {
   console.log(route)
 })
 </script>
+
+<style lang="sass">
+.recipe__wrapper
+  display: flex
+  justify-content: center
+  align-items: center
+  background: #b88080
+  margin: 1rem
+  border-radius: 1rem
+  padding: 2rem
+
+@media only screen and (min-width: 768px)
+  .recipe__wrapper
+    width: 33%
+    margin: auto
+    margin-top: 1rem
+</style>
